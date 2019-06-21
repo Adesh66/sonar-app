@@ -1,1 +1,348 @@
 /* You can add global styles to this file, and also import other style files */
+html,
+body {
+
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
+
+
+
+
+:root {
+  --main-heading: #52BAA8;
+  --main-subtitle: #265381;
+}
+
+@font-face {
+  font-family: coconfont;
+  src: url(src/assets/fonts/Cocon-Bold.otf);
+}
+
+
+@font-face {
+  font-family: coconfont-regular;
+  src: url(src/assets/fonts/Cocon-Regular.otf);
+}
+
+@media only screen and (min-width : 320px) and (max-width : 479px) {
+  .i_crises_container .i_criese_list {
+    flex-direction: column !important;
+  }
+
+  .i_crises_container .i_criese_list .i_3 {
+    width: 100% !important;
+  }
+
+  .i_crises_container .i_criese_list .i_1 {
+    width: 100% !important;
+    height: auto !important;
+    order: 1;
+  }
+
+  .text_crises .heighlighted {
+    font-size: 3rem !important;
+  }
+
+  .i_crises_container .i_criese_list .i_2 {
+    height: 31vh !important;
+    border-radius: 29px !important;
+    border-radius: 15px !important;
+    margin-bottom: 31px !important;
+    background-size: contain !important;
+  }
+
+  .text_crises {
+    font-size: 1.25rem !important;
+    top: -34% !important;
+    left: 5% !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+
+  .i_crises_container {
+    padding: 1rem !important;
+    margin-top: 3rem !important;
+  }
+
+  .i_our_clients .i_our_clinet_list {
+    flex-direction: column;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_content h1 {
+    font-size: 36px !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container {
+    flex-direction: column !important;
+    padding: 0px !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_content {
+    width: calc(100% / 1) !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_main {
+    width: calc(100% /1) !important;
+    flex-direction: column !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_main .crises_even {
+    margin: 0px 0rem !important;
+    width: calc(100% - 0rem) !important;
+  }
+
+  .i_crises_main_container {
+    padding: 2rem 0px !important;
+  }
+
+  .i_our_clients {
+    padding: 2rem 0px !important;
+  }
+
+  .i_our_clients h1 {
+    font-size: 20px !important;
+  }
+
+  .i_our_clients .i_our_clinet_list .i_list_name {
+
+    margin: 10px 5px !important;
+    padding: 11px 13px !important;
+    min-height: 75px !important;
+    width: calc(100% /2 - 10px) !important;
+  }
+
+  .i_request_demo {
+    padding: 2rem 0px !important;
+  }
+
+  .i_request_demo .i_demo_container {
+    flex-direction: column !important;
+
+  }
+
+  .i_request_demo .i_demo_container .i_demo_child_boxes {
+    margin: 0px 0px !important;
+    width: calc(100% / 1 - 0px) !important;
+  }
+
+  .footer .i_parent_footer {
+    flex-direction: column !important;
+  }
+
+  .footer .i_parent_footer .icon {
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .app_main_container {
+    flex-direction: column !important;
+  }
+
+  .main_container .banner_content .main_title {
+    font-size: 2rem !important;
+  }
+
+  .main_container .banner_content .subheading_main {
+    font-size: 0.75rem !important;
+  }
+
+  .main_container {
+    min-height: 70vh !important;
+  }
+
+  .i_feature_main_container {
+    padding: 1rem !important;
+  }
+
+  .i_feature_main_container .i_feature_heading_title h1 {
+    font-size: 20px !important;
+  }
+
+
+  .i_feature_main_container .i_feature_heading_title p {
+    font-size: 16px !important;
+  }
+
+  .i_feature_main_container .i_feature_box_container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+
+  .i_feature_main_container .i_feature_box_container .i_feature_box_1 {
+    flex-direction: column !important;
+    padding: 1.25rem 1rem 1.25rem 1rem !important;
+    width: calc(100% / 1 - 20px) !important;
+  }
+
+  .i_request_demo .i_demo_container .i_demo_child_boxes .btn_request_for_demo {
+    margin-bottom: 2rem !important;
+  }
+}
+
+
+
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .i_request_demo .i_demo_container .i_demo_child_boxes .btn_request_for_demo {
+    margin-bottom: 2rem !important;
+  }
+
+  .i_crises_container .i_criese_list {
+    flex-direction: column !important;
+  }
+
+  .i_crises_container .i_criese_list .i_3 {
+    width: 100% !important;
+  }
+
+  .i_crises_container .i_criese_list .i_1 {
+    width: 100% !important;
+    height: auto !important;
+    order: 1;
+  }
+
+  .text_crises .heighlighted {
+    font-size: 3rem !important;
+  }
+
+  .i_crises_container .i_criese_list .i_2 {
+    height: 31vh !important;
+    border-radius: 29px !important;
+    border-radius: 15px !important;
+    margin-bottom: 31px !important;
+    background-size: contain !important;
+  }
+
+  .text_crises {
+    font-size: 1.25rem !important;
+    top: -34% !important;
+    left: 5% !important;
+    align-items: flex-start !important;
+    flex-direction: column !important;
+  }
+
+  .i_crises_container {
+    padding: 1rem !important;
+    margin-top: 3rem !important;
+  }
+
+  .i_our_clients .i_our_clinet_list {
+    flex-direction: column;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_content h1 {
+    font-size: 36px !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container {
+    flex-direction: column !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_content {
+    width: calc(100% / 1) !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_main {
+    width: calc(100% /1) !important;
+    flex-direction: column !important;
+  }
+
+  .i_crises_main_container .i_crises_box_container .i_crises_main .crises_even {
+    margin: 0px 0rem !important;
+    width: calc(100% - 0rem) !important;
+  }
+
+  .i_crises_main_container {
+    padding: 2rem 0px !important;
+  }
+
+  .i_our_clients {
+    padding: 2rem 0px !important;
+  }
+
+  .i_our_clients h1 {
+    font-size: 20px !important;
+  }
+
+  .i_our_clients .i_our_clinet_list .i_list_name {
+
+    margin: 10px 5px !important;
+    padding: 11px 13px !important;
+    height: 75px !important;
+    width: calc(100% /2 - 10px) !important;
+  }
+
+  .i_request_demo {
+    padding: 2rem 0px !important;
+  }
+
+  .i_request_demo .i_demo_container {
+    flex-direction: column !important;
+
+  }
+
+  .i_request_demo .i_demo_container .i_demo_child_boxes {
+    margin: 0px 0px !important;
+    width: calc(100% / 1 - 0px) !important;
+  }
+
+  .footer .i_parent_footer {
+    flex-direction: column !important;
+  }
+
+  .footer .i_parent_footer .icon {
+    text-align: center !important;
+    width: 100% !important;
+  }
+
+  .app_main_container {
+    flex-direction: column !important;
+  }
+
+  .main_container .banner_content .main_title {
+    font-size: 2rem !important;
+  }
+
+  .main_container .banner_content .subheading_main {
+    font-size: 0.75rem !important;
+  }
+
+  .main_container {
+    min-height: 70vh !important;
+  }
+
+  .i_feature_main_container {
+    padding: 1rem !important;
+  }
+
+  .i_feature_main_container .i_feature_heading_title h1 {
+    font-size: 20px !important;
+  }
+
+
+  .i_feature_main_container .i_feature_heading_title p {
+    font-size: 16px !important;
+  }
+
+  .i_feature_main_container .i_feature_box_container {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    flex-direction: column !important;
+  }
+
+  .i_feature_main_container .i_feature_box_container .i_feature_box_1 {
+    flex-direction: column !important;
+    padding: 1.25rem 1rem 1.25rem 1rem !important;
+    width: calc(100% / 1 - 20px) !important;
+  }
+}
